@@ -1,0 +1,871 @@
+*{
+      margin: 0px;
+      padding: 0px;
+}
+
+body{     
+      width: 100%;
+      height: 100%; 
+      font-family: 'Titillium Web',
+      sans-serif;
+}
+h2 {
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 80px;      
+      color: black;
+}
+
+p{
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 0px;
+      color: #999999;
+}
+
+section{
+      padding: 70px 0;
+
+}
+
+.container-content {
+      max-width: 800px;
+      margin: 0 auto 60px auto;
+      text-align: center;
+}
+
+
+
+/** Encabezado**/
+
+.navbar{
+      background-color: rgb(176, 193, 248);
+      min-height: 60px;
+}
+
+.navbar-brand{
+      color: rgb(30, 27, 32);
+}
+
+.nav-link{
+      color: black;
+      font-size: 20px;
+      padding: 0 10px 0 10px;
+}
+
+.navbar-toggler{
+      font-size: 30px;
+      
+}
+
+.navbar-toggler:focus{
+      outline: none;
+}
+
+
+/**Section No 1**/
+
+#inicio{
+  background-image: url('../img/educacion1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  min-height: 500px;
+  opacity: inherit;
+  
+  
+}
+
+.button {
+      display: inline-block;      
+      text-align: center;
+      font-size: 50px;
+      padding: 20px;
+      width: 200px;
+      height: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+      letter-spacing: 0.05em;
+}
+
+.details p {
+      font-size: 20px;
+      margin-top: 40px;
+}
+
+
+.details a:hover{
+      background:#a5aba1;
+      color:#494c46;
+      -webkit-transform: scale(0.8);
+      -ms-transform: scale(0.8);
+      transform: scale(0.8);
+      box-shadow: inset 0 0 0 3px #555953;   
+       
+}
+
+.icono_1{
+      color:red;
+      border-radius: 10px;
+      border: 3px solid red;
+      
+     
+     }
+
+.icono_2 {
+      color: blue;
+      border-radius: 10px;
+      border: 3px solid blue;    
+
+
+     }
+
+.icono_3 {
+      color: green;
+      border-radius: 10px;
+      border: 3px solid green;
+     
+     }
+
+.icono_4{
+      color: yellow;
+      border-radius: 10px;
+      border: 3px solid yellow;
+      
+     }
+
+.icono_5 {
+      color: black;
+      border-radius: 10px;
+      border: 3px solid black;
+     
+     }
+
+.icono_6 {
+      color: #fc0fc0;
+      border-radius: 10px;
+      border: 3px solid #fc0fc0;
+      color:#fc0fc0 ;
+}
+
+/**Section No 2 Quienes somos**/
+
+#about{
+      background-color:#f2eeea;
+}
+
+.card-content img{
+      max-width: 100%;
+      height: auto;
+}
+
+
+.card-content{
+      margin-top: 1rem;
+      text-align: center;
+      
+}
+
+.card p {
+      margin-top: 2rem;
+      font-size: 15px;
+      text-align: justify;
+      color: black;
+      
+}
+
+.card h4 {
+      margin-bottom: 0px;
+}
+
+.card-item {
+      margin-top: 4rem;
+
+}
+
+ .card a {
+      color: white;
+}
+
+ .card a:hover {
+      color: indigo;
+}
+
+/**Usuarios**/
+
+.carousel{   
+      background-color: aqua;   
+      min-height: 350px;
+      padding: 30px;
+      border-radius: 2px;
+      text-align: center;
+}
+
+.carousel p{
+      font-size:26px;     
+      color: #1a1a1a;
+
+}
+
+.rating i{
+      font-size:26px;
+      margin-top: 0px;
+      color: gold;
+}
+
+.testimonials-users{
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: left;
+      
+}
+
+.testimonials-users h5{
+      margin-bottom: 0px;
+      
+
+}
+
+.testimonials-users span{
+      font-size: 15px;
+
+}
+.testimonials-users img{
+      width: 200px;
+      height: 200px; 
+      border-radius: 50%;
+      text-align: center;
+}
+
+/**Contact Us**/
+#contact{
+      background-color: #eeeeee;
+}
+
+.justify-text{
+      text-align: justify;
+       line-height: 1.5;
+}
+
+
+
+.form-control{
+      font-size: 20px;
+      border: none;
+      border-radius: 0px;
+      padding: 15px;
+      border-bottom: 1px solid #bdbaba;
+      background-color: transparent;
+      
+     
+}
+
+input:focus, input.form-control:focus, textarea.form-control:focus {
+    outline:none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border-bottom: 2px solid #1e06f5;
+    background-color: transparent;
+}
+
+
+/** Footer**/
+
+.bg-dark{
+      background-color: #45526e !important;
+
+}
+
+
+
+  
+/** Media Queries**/
+
+/**Configuracion Celular Vertical**/
+@media (max-width: 575.98px) {
+      .container{
+            width: auto;
+      }
+      
+
+     section {
+           padding: 50px 0;
+
+     }
+     
+      #inicio {
+            min-width:200px;
+            min-height: 300px;
+      }
+
+
+      .button{
+            display: none;
+      }
+    
+      h2, h3{ 
+           font-size: 30px;
+           
+     }
+     p {
+           font-size: 15px;
+           
+     }
+     .details a {
+           width: 20px;
+           height: 20px;
+     }
+
+     .card-content{
+           max-width: 400px;
+           display:block;
+           margin:auto;
+     }
+     
+
+     .card-item{
+           margin-top: 10px;
+     }
+     
+     .card-item-responsive-1{
+           margin-right: 200px;
+     }
+
+     .card-item-responsive-2{
+           margin-right: 75px;
+     }
+
+     .card-item-responsive-3 {
+           margin-left: 75px;
+     }
+
+     .card-item-responsive-4{
+           margin-left: 200px;
+     }
+
+     #notice .h5{
+           font-size: 20px;
+
+     }
+     .carousel p {
+           font-size: 15px;        
+
+     }
+
+     .carousel {
+           max-height: 300px;          
+           text-align: center;
+     }
+
+     .testimonials-users {
+           max-width: 100px;
+           margin: 0 auto;
+           text-align: center;
+
+     }
+     .testimonials-users img {
+           max-width: 100px;
+           max-height: 100px;
+           border-radius: 50%;
+           text-align: center;
+     }
+
+     .carousel-indicators{
+           display: none;
+     }
+
+     .rating i {
+           font-size: 10px;
+           
+     }
+
+     footer .container{
+           text-align: center;
+
+     }
+
+     footer h3{
+           font-size: 20px;
+     }
+
+     footer p{
+           font-size: 15px ;
+     }
+
+     .footer-1{
+           width: 200px;
+     }     
+     
+     }
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+        .container {
+              width: auto;
+        }
+
+        section {
+              padding: 35px 0;
+
+        }
+
+        #inicio {
+              min-width: 200px;
+              min-height: 300px;
+        }
+
+
+        .button {
+              display: none;
+        }
+
+        h2,h3 {
+              font-size: 30px;
+
+        }
+
+        p {
+              font-size: 15px;
+
+        }
+
+        .details a {
+              width: 20px;
+              height: 20px;
+        }
+
+        .card-content {
+              max-width: 400px;             
+              display: block;
+              margin: auto;
+        }
+
+
+        .card-item {
+              margin-top: 30px;
+        }
+
+
+        .card-item-responsive-1 {
+              margin-right: 200px;
+        }
+
+        .card-item-responsive-2 {
+              margin-right: 75px;
+        }
+
+        .card-item-responsive-3 {
+              margin-left: 75px;
+        }
+
+        .card-item-responsive-4 {
+              margin-left: 200px;
+        }
+
+        #notice .h5 {
+              font-size: 20px;
+
+        }
+
+        .carousel p {
+              font-size: 15px;
+
+
+        }
+
+        .carousel {
+              max-height: 300px;
+              text-align: center;
+        }
+
+        .testimonials-users {
+              max-width: 100px;
+              margin: 0 auto;
+              text-align: center;
+
+        }
+
+        .testimonials-users img {
+              max-width: 100px;
+              max-height: 100px;
+              border-radius: 50%;
+              text-align: center;
+        }
+
+        .carousel-indicators {
+              display: none;
+        }
+
+        .rating i {
+              font-size: 10px;
+
+        }
+
+        footer .container {
+              text-align: center;
+
+
+        }
+
+        footer h3 {
+              font-size: 20px;
+        }
+
+        footer p {
+              font-size: 15px;
+        }
+
+        .footer-1 {
+              width: 200px;
+        }
+
+             
+      
+}
+
+/**Tablets Vertical**/
+@media (min-width: 768px) and (max-width: 991.98px) {
+      
+
+      .navbar-expand-sm .navbar-nav .nav-link{
+            font-size: 15px;
+      }
+      .navbar-brand{
+            font-size: 20px;           
+            
+      }
+      
+
+      section {
+            padding: 60px 0px;
+
+      }
+
+      #inicio {
+            min-width: 300px;
+            min-height: 500px;
+      }
+
+      .button { 
+            position:relative;
+            display: inline-block;            
+            font-size: 50px;
+            padding: 60px;
+            margin-bottom: 20px;                
+           
+           
+      }
+
+      .details p {
+            display: none;
+           
+      }
+
+      .fa-square-root-alt,
+      .fa-landmark,
+      .fa-microscope,
+      .fa-book-open,
+      .fa-handshake,
+      .fa-laptop-code {
+            position: absolute;
+            display: block;
+            margin: -30px;
+            
+      }
+           
+
+      h2,h3 {
+            font-size: 30px;
+
+      }
+
+      p {
+            font-size: 15px;
+
+      }
+
+      .details a {
+            width: 20px;
+            height: 20px;
+      }
+
+      .card-content {
+            max-width: 800px;
+            display: block;
+            margin: auto;
+            position: relative;
+      }
+
+      #about img{
+            height: 400px;
+      }
+
+      figure{
+            width: 350px;
+            height: 400px;
+      }
+
+
+      
+
+      .card-item {
+            position: absolute;
+            margin-top: 120px;
+      }
+
+
+      .card-item-responsive-1 {
+            margin-right: 200px;
+      }
+
+      .card-item-responsive-2 {
+             margin-left: 70px;
+      }
+
+      .card-item-responsive-3 {
+            margin-left: -15px;
+      }
+
+      .card-item-responsive-4 {
+            margin-left: 200px;
+      }
+
+      #notice .h5 {
+            font-size: 20px;
+
+      }
+
+      .carousel p {
+            font-size: 15px;
+
+
+      }
+
+      .carousel {
+            min-height: 300px;            
+            text-align: center;
+      }
+
+      .testimonials-users {
+            max-width: 300px;
+            margin: 0 auto;
+            
+
+      }
+
+      .testimonials-users img {
+            max-width: 150px;
+            max-height: 150px;
+            border-radius: 50%;
+            text-align: right;
+      }
+
+      .carousel-indicators {
+            display: none;
+      }
+
+      .rating i {
+            font-size: 10px;
+
+      }
+
+      footer .container {
+            text-align: center;
+
+
+      }
+
+      footer h3 {
+            font-size: 20px;
+      }
+
+      footer p {
+            font-size: 15px;
+      }
+
+      .footer-1 {
+            width: 200px;
+      }
+      
+
+
+}
+/**Tablet Horizontal**/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+.navbar-expand-sm .navbar-nav .nav-link {
+      font-size: 15px;
+}
+
+.navbar-brand {
+      font-size: 20px;
+
+}
+
+
+section {
+      padding: 60px 0px;
+
+}
+
+#inicio {
+      min-width: 300px;
+      min-height: 500px;
+}
+
+.button {
+      position: relative;
+      display: inline-block;
+      font-size: 50px;
+      padding: 60px;
+      margin-bottom: 20px;
+
+
+}
+
+.details p {
+      display: none;
+
+}
+
+.fa-square-root-alt,
+.fa-landmark,
+.fa-microscope,
+.fa-book-open,
+.fa-handshake,
+.fa-laptop-code {
+      position: absolute;
+      display: block;
+      margin: -30px;
+
+}
+
+
+h2,
+h3 {
+      font-size: 30px;
+
+}
+
+p {
+      font-size: 15px;
+
+}
+
+.details a {
+      width: 20px;
+      height: 20px;
+}
+
+.card-content {
+      max-width: 800px;
+      display: block;
+      margin: auto;
+      position: relative;
+}
+
+#about img {
+      height: 400px;
+}
+
+figure {
+      width: 350px;
+      height: 400px;
+}
+
+
+
+
+.card-item {
+      position: absolute;
+      margin-top: 120px;
+}
+
+
+.card-item-responsive-1 {
+      margin-right: 200px;
+}
+
+.card-item-responsive-2 {
+      margin-left: 70px;
+}
+
+.card-item-responsive-3 {
+      margin-left: -15px;
+}
+
+.card-item-responsive-4 {
+      margin-left: 200px;
+}
+
+#notice .h5 {
+      font-size: 20px;
+
+}
+
+.carousel p {
+      font-size: 15px;
+
+
+}
+
+.carousel {
+      min-height: 300px;
+      text-align: center;
+}
+
+.testimonials-users {
+      max-width: 300px;
+      margin: 0 auto;
+
+
+}
+
+.testimonials-users img {
+      max-width: 150px;
+      max-height: 150px;
+      border-radius: 50%;
+      text-align: right;
+}
+
+.carousel-indicators {
+      display: none;
+}
+
+.rating i {
+      font-size: 10px;
+
+}
+
+footer .container {
+      text-align: center;
+
+
+}
+
+footer h3 {
+      font-size: 20px;
+}
+
+footer p {
+      font-size: 15px;
+}
+
+.footer-1 {
+      width: 200px;
+}
+
+
+
+      
+}
+
+
+@media (min-width: 1200px) {
+      
+}
+
